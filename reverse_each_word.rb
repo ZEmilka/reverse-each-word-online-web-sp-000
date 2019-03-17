@@ -5,6 +5,6 @@ end
 
 def reverse_word(sentence1)
   sentence.each do |word|
-    word.reverse
+    word[0].reverse
 end
 binding.pry
