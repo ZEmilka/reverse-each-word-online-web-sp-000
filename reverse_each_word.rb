@@ -1,11 +1,8 @@
-require 'pry'
-def reverse_each_word(sentence1)
-  sentence1
+
+def reverse_each_word(string)
+  changed=string.split(" ").collect do |word|
+    word.reverse
+  end
+  chaned.join(" ")
 end
 
-def reverse_word(sentence1)
-  sentence.map do |word|
-    word[0].reverse
-    return word
-end
-binding.pry
