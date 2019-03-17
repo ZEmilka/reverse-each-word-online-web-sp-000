@@ -6,3 +6,4 @@ end
 def reverse_word
   "Hello there, and how are you?".reverse
 end
+binding.pry
