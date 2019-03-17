@@ -5,7 +5,7 @@ end
 
 def reverse_word
   array_new=[]
-  
+
   "Hello there, and how are you?".reverse
 end
 binding.pry
