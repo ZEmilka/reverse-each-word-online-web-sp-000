@@ -4,7 +4,7 @@ def reverse_each_word(sentence1)
 end
 
 def reverse_word(sentence1)
-  sentence.each do |word|
+  sentence.map do |word|
     word[0].reverse
 end
 binding.pry
